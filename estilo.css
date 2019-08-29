@@ -1,11 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre&display=swap');
 
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: 'IBM Plex Mono', monospace;
-	font-weight: 300;
+	font-size:1.25rem;
+	font-family: 'Averia', monospace;
+	font-weight: 400;
 }
 
 canvas {
@@ -36,5 +37,16 @@ div#frase{
 	left:25%;
 	width:50%;
 	height:50%;
-	text-align: left;	
+	text-align: left;
 }
+
+	div#pie{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 96;
+		padding: 3% 2%;
+		height: auto;
+		text-decoration: left;
+		background: rgb(255, 0, 0);
+		}
