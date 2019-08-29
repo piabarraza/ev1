@@ -9,7 +9,7 @@ var tamaño;
 	 tamano = "large"
   }
 
-document.getElementsByTagName("p")[0].innerText= nombre + " los astros han hablado";
+document.getElementsByTagName("p")[0].innerText= nombre + " los astros han hablado, tu color es el del texto";
 document.getElementById("frase").style.fontSize= tamaño;
 
 var depende;
