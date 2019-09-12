@@ -13,6 +13,7 @@ function setup(){
 
 function draw(){
 	colorMode(HSB, 360,100,100);
+	background (235, 100, 20)
 	for (var x = 0; x < temblores.features.length; x++){
 		var lugar = temblores.features[x].properties.title;
 		if(lugar.includes("Chile")){
