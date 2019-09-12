@@ -5,10 +5,11 @@ function setup(){
   mic.start();
   createCanvas(windowWidth, windowHeight);
   frameRate(12);
+  colorMode(HSB, 360, 100, 100)
   noStroke();
 }
 function draw(){
-  background(0);
+  background(235,100,20);
   micLevel = mic.getLevel();
   
 a = constrain(height-micLevel*height*5, 0, height);
