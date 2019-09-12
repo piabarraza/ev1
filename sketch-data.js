@@ -16,7 +16,7 @@ function draw(){
 	for (var x = 0; x < temblores.features.length; x++){
 		var lugar = temblores.features[x].properties.title;
 		if(lugar.includes("Chile")){
-		fill(0, 100, 100);
+		fill(300, 100, 100);
 		pelota(temblores.features[x].properties.mag);
 	} else {
 		fill(0, 25, 100);
