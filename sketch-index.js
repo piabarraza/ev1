@@ -1,4 +1,7 @@
 function consultar(){
+	colorMode(HSB, 360, 100, 100);
+	background(235, 100, 20)
+	fill(360, 0 ,100)
 var nombre = document.getElementById("nombre").value;
 var edad = document.getElementById("edad").value;
 var signo = document.getElementById("signo").value;
