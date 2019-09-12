@@ -14,7 +14,7 @@ function draw(){
   colorMode(HSB, 360, 100, 100);
   for (var x = 0; x < 100; x++) {
     var a = mic.getLevel(0, 360);
-    fill(a, 100, 100);
+    fill(300, 100, 100);
     pelota(a);
   }
 }
